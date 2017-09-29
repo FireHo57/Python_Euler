@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="94e01f3e-aeab-426a-9968-5383388dc9a7" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/problem_12/problem_12_main.py" afterPath="$PROJECT_DIR$/problem_12/problem_12_main.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -412,7 +411,14 @@
       <option name="project" value="LOCAL" />
       <updated>1506721223314</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="And solved!">
+      <created>1506722149579</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1506722149579</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -445,7 +451,8 @@
     <MESSAGE value="Checking in work in progress. the sieve doesn't quite work yet need to fix it." />
     <MESSAGE value="Stuff that is now working - the prime sieve (which has received a bit of an extensive rewrite), the divisors function (i've run some numbers through on paper, seems to check out)&#10;&#10;Also, changed to python 2.7 (which is what i wanted to be in in the first place)" />
     <MESSAGE value="Got the whole system up and running. The divisors function was not working properly so fixed that and am now graphing divisors against triangle numbers" />
-    <option name="LAST_COMMIT_MESSAGE" value="Got the whole system up and running. The divisors function was not working properly so fixed that and am now graphing divisors against triangle numbers" />
+    <MESSAGE value="And solved!" />
+    <option name="LAST_COMMIT_MESSAGE" value="And solved!" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
