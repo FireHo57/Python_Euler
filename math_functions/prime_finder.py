@@ -1,25 +1,43 @@
-def sieve_of_e(target):
+import time as t
 
-    sieve_list = range(2,target)
+def sieve_of_e(target, timed=False):
+    my_list = range(2, target)
+    p = my_list[0]
+    mark = p
 
-    #set initial conditions
-    p = sieve_list[0]
-    mark = sieve_list[p]
+    primes = []
+    primes.append(p)
 
-    while p < target:
-        print (p)
-        while 1:
+    t0 = t.time()
+    # below while loop will break as soon as next throws an exception
+    while 1:
 
+        while mark < target:
             try:
-                sieve_list[mark] = 0
+                my_list[mark] = 0
             except:
+                # print "Exception!"
                 break
-            print ('mark: {}'.format(mark))
-            mark+=p
 
-        # increment p - it's the next non zero number
-        p = next( x for x in sieve_list if x!= 0 and x >= p )
-        mark = [sieve_list.index(p)+p]
+            mark += p
+
+        try:
+            p = next(x for i, x in enumerate(my_list) if x != 0 and x > p)
+            primes.append(p)
+
+            mark = my_list.index(p)
+            # print 'mark: {}'.format(mark)
+        except:
+            break
+
+    t1 = t.time()
+
+    if timed:
+        print "Time elapsed: {}".format(t1 - t0)
+    return primes
 
 
-    return [i for i,e in enumerate(sieve_list) if e!= 0]
+if __name__ == "__main__":
+    print sieve_of_e(100)
+
+
