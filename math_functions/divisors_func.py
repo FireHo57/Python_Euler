@@ -7,29 +7,29 @@ def divisors_brute_force(target):
             total+=1
     return total
 
-def divisors(target):
-    primes = soe(target)
+def divisors(target,in_primes=[]):
+    primes=[]
+    if len(in_primes) == 0:
+        primes=soe(target)
+    else:
+        primes=in_primes
     div_list = []
     total = target
     x = 0
-
-    print("Initial total: {}".format(total))
 
     while x < len(primes):
         sub_list = []
         while total % primes[x] == 0:
             total /= primes[x]
-            print(("total: {}").format(total))
             sub_list.append(primes[x])
 
         if len(sub_list) != 0:
             div_list.append(sub_list)
         x += 1
 
-    print div_list
     num_divisors = 1
     for x in div_list:
-        num_divisors *= x[0] * len(x)
+        num_divisors *= (len(x)+1)
     return num_divisors
 
 
