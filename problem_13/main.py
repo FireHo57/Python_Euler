@@ -3,9 +3,11 @@ from utility import file_reader as fr
 def main():
     num_array = fr.read_to_array('numbers.txt')
 
+    sum = 0
     for x in num_array:
-        split_num=[x[i:i+10] for i in range(0 , len(x), 10)]
+        sum+= int(x)
 
+    print sum
 
 
 
