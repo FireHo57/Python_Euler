@@ -1,3 +1,4 @@
 # Python_Euler
-This is a project
-This is so i can a) practise python a bit more and b) get used to committing regularly to github
+This project is in python 2.7;
+It's purpose is so I can a) practise python a bit more and b) get used to committing regularly to github
+
