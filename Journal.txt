@@ -4,3 +4,6 @@ Notes as I go along:
  a bit inefficient. I've read on the internet that a possible solution would be to cache the numbers of each chain as
  you go along thereby reducing future chains to an already solved state if that number is come across later. I might
  look at implementing this at some point for my solution to problem 14.
+
+ - Problem 18. Initially thinking of identifying the highest number in each row and then trying to plot a path that
+ includes as many of the highest numbers as possible.
