@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="94e01f3e-aeab-426a-9968-5383388dc9a7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/problem_18/main.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Journal.txt" afterPath="$PROJECT_DIR$/Journal.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utility/file_reader.py" afterPath="$PROJECT_DIR$/utility/file_reader.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/problem_18/main.py" afterPath="$PROJECT_DIR$/problem_18/main.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -40,8 +38,8 @@
       <file leaf-file-name="main.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/problem_18/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="305">
-              <caret line="102" column="0" lean-forward="true" selection-start-line="102" selection-start-column="0" selection-end-line="102" selection-end-column="0" />
+            <state relative-caret-position="332">
+              <caret line="98" column="35" lean-forward="false" selection-start-line="98" selection-start-column="35" selection-end-line="98" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -498,7 +496,14 @@
       <option name="project" value="LOCAL" />
       <updated>1518768038068</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Got skeleton of basic method (which may just be plain wrong). It's currently printing all 0,14 which is wrong so need to fix that.">
+      <created>1518978777601</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1518978777601</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -542,7 +547,8 @@
     <MESSAGE value="Start on problem 17. Solution not yet found" />
     <MESSAGE value="Found a few small bugs fixed them and solved 17" />
     <MESSAGE value="Initial folder structure of problem 18 and a few notes into the journal" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial folder structure of problem 18 and a few notes into the journal" />
+    <MESSAGE value="Got skeleton of basic method (which may just be plain wrong). It's currently printing all 0,14 which is wrong so need to fix that." />
+    <option name="LAST_COMMIT_MESSAGE" value="Got skeleton of basic method (which may just be plain wrong). It's currently printing all 0,14 which is wrong so need to fix that." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -909,8 +915,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/problem_18/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="102" column="0" lean-forward="true" selection-start-line="102" selection-start-column="0" selection-end-line="102" selection-end-column="0" />
+        <state relative-caret-position="332">
+          <caret line="98" column="35" lean-forward="false" selection-start-line="98" selection-start-column="35" selection-end-line="98" selection-end-column="35" />
           <folding />
         </state>
       </provider>

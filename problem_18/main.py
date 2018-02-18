@@ -81,18 +81,22 @@ def track(input_array):
     current_track = [current_position]
     total = input_array[0][0]
     while current_position.y() < len(input_array) - 1:
-        left_total(input_array, current_position)
-        right_total(input_array, current_position)
-        if left_total < right_total:
+        left=left_total(input_array, current_position)
+        right=right_total(input_array, current_position)
+        print "Left total vs Right total: {} - {}".format(left,right)
+        if left > right:
             # go left, x stays the same y increases
             current_position.up_y()
+            print "Going left"
         else:
             # go right, x increases y increases
             current_position.up_both()
+            print "Going right"
         total += input_array[current_position.y()][current_position.x()]
+        print current_position
         current_track.append(current_position)
 
-    print total
+    print "Total: {}".format(total)
     return current_track
 
 
@@ -101,8 +105,9 @@ def main():
 
     int_array = str_to_int_arrays(array)
 
-    for x in track(int_array):
-        print x
+    track(int_array)
+    #for x in track(int_array):
+    #    print x
 
 
 if __name__ == "__main__":
