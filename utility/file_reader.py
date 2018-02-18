@@ -1,5 +1,6 @@
 import os
 
+#reads file (at filePath) contents into string preserving newlines
 def read_to_string(filePath):
     targetFile=open(filePath)
     str=''

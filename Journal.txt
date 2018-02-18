@@ -7,3 +7,7 @@ Notes as I go along:
 
  - Problem 18. Initially thinking of identifying the highest number in each row and then trying to plot a path that
  includes as many of the highest numbers as possible.
+    :: Better idea. Starting at the second row (because there are no choices in the first row) split the numbers in two
+    groups. look at whichever is higher.
+    :: alternately keep an idea of how much value is left in the grid and choose the path that decreases the value
+    the least. do this by subtracting the rows that become unreachable when going either left or right.
