@@ -11,3 +11,14 @@ Notes as I go along:
     groups. look at whichever is higher.
     :: alternately keep an idea of how much value is left in the grid and choose the path that decreases the value
     the least. do this by subtracting the rows that become unreachable when going either left or right.
+
+    The second of these ideas doesn't work, I suspect the first will not for similar reasons.
+
+    ::Find the highest number in each row, plot a course through the grid that maximises the number of highest numbers
+    hit. [Not implemented]
+    This answer: https://stackoverflow.com/questions/32679720/how-to-calculate-the-highest-score-when-taking-a-path-through-a-grid
+    Seems to suggest a bottom up approach, I'll try that out
+        - need to do rebuild the grid using the adjusted numbers (this means coding adjacency)
+
+    ::On an aside I may come back to this problem because it looks like a neat target for a really really basic machine
+    learning algorithm
