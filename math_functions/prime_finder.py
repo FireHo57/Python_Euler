@@ -1,6 +1,8 @@
 import time as t
 
 def sieve_of_e(target, timed=False):
+    if target <= 2:
+        return [2]
     my_list = range(2, target)
     p = my_list[0]
     mark = p

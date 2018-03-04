@@ -7,7 +7,7 @@ def divisors_brute_force(target):
             total+=1
     return total
 
-def divisors(target,in_primes=[]):
+def prime_divisors(target,in_primes=[]):
     primes=[]
     if len(in_primes) == 0:
         primes=soe(target)
@@ -27,11 +27,22 @@ def divisors(target,in_primes=[]):
             div_list.append(sub_list)
         x += 1
 
+    return div_list
+
+def count_num_divisors(self, divisors_list):
     num_divisors = 1
-    for x in div_list:
+    for x in divisors_list:
         num_divisors *= (len(x)+1)
     return num_divisors
 
+# returns a list of numbers that are evenly divisible into target
+def proper_divisors(target):
+    divisors=[]
+    for i in range(1,target/2 + 1):
+        if target%i == 0:
+            divisors.append(i)
+
+    return divisors
 
 if __name__ == "__main__":
-    print divisors(500)
+    print proper_divisors(500)
