@@ -1,43 +1,29 @@
 from math_functions import divisors_func as df
 from collections import OrderedDict
+import timeit as t
 
 def amicable_numbers(target):
-    search_list=dict()
+    index = []
+    for i in range(1, target+1):
+        index.append((i, sum(df.proper_divisors(i))))
 
-    for i in range(1,target+1):
-        search_list[i]=sum(df.proper_divisors(i))
+    results = []
+    for u in index:
+        # print("{}".format(u))
+        div = "-"
+        if u[1] < target:
+            div = index[u[1] - 1]
 
-    # order the list
-    ordered_search_list = OrderedDict(search_list)
-    # walk through the list following the sum numbers. Only pairs will link to each other
+            if div[1] == u[0] and div[0] != u[0]:
+                results.extend(div)
 
-    a = next(iter(reversed(ordered_search_list)))
-    b = ordered_search_list.get(a,None)
+    cleaned_results = []
+    for i in results:
+        if i not in cleaned_results:
+            cleaned_results.append(i)
 
-    while b is not None:
-        b = ordered_search_list.get(a, None)
-        print("a,b: {},{}".format(a, b))
-        if b is None:
-            # if b is None then a will have been deleted
-            # get a fresh number
-            a = next(iter(reversed(ordered_search_list)))
-            b = ordered_search_list.get(a, None)
-        else:
-            if a != b:
-                prev_a = a
-                prev_b = b
-                a = ordered_search_list.get(prev_b, None)
-                ordered_search_list.pop(prev_a,None)
-                ordered_search_list.pop(prev_b,None)
-            else:
-                # the values to somewhere..
-                print("tbc")
-
-
-    print(ordered_search_list)
-
-
-
+    return cleaned_results
 
 if __name__ == "__main__":
-    amicable_numbers(10)
+    # amicable_numbers(10)
+    print( sum(amicable_numbers(10000)) )
