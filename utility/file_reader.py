@@ -10,13 +10,16 @@ def read_to_string(filePath):
         x = targetFile.readline()
     return str
 
-def read_to_array(filepath):
+
+def read_to_array(filepath,delimiter=None):
     targetFile=open(filepath)
     arr=[]
-    x = targetFile.readline()
-    while len(x) != 0:
-        arr.append(x.rstrip())
-        x = targetFile.readline()
+
+    for line in targetFile.readlines():
+        if delimiter is not None:
+            arr.extend( line.split(delimiter) )
+        else:
+            arr.append(line)
 
     return arr
 
