@@ -1,6 +1,5 @@
 from math_functions import divisors_func as df
-from collections import OrderedDict
-import timeit as t
+
 
 def amicable_numbers(target):
     index = []
@@ -10,7 +9,7 @@ def amicable_numbers(target):
     results = []
     for u in index:
         # print("{}".format(u))
-        div = "-"
+
         if u[1] < target:
             div = index[u[1] - 1]
 
@@ -26,4 +25,4 @@ def amicable_numbers(target):
 
 if __name__ == "__main__":
     # amicable_numbers(10)
-    print( sum(amicable_numbers(10000)) )
+    print(sum(amicable_numbers(10000)))
