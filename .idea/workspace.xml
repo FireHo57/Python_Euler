@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="94e01f3e-aeab-426a-9968-5383388dc9a7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/math_functions/fibonacci.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/problem_26/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/problem_26/problem_26.py" />
+    <list default="true" id="94e01f3e-aeab-426a-9968-5383388dc9a7" name="Default" comment="Push">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/problem_24/problem_24.py" afterPath="$PROJECT_DIR$/problem_24/problem_24.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -757,7 +753,14 @@
       <option name="project" value="LOCAL" />
       <updated>1526135359594</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Solved problem 25 thanks to extensive python libraries">
+      <created>1526138698484</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1526138698484</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="ToolWindowManager">
