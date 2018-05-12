@@ -1,5 +1,6 @@
 from itertools import permutations as p
 
+
 def main():
 
     nums = list(range(0, 10))
@@ -11,3 +12,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+    
