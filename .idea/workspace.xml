@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="94e01f3e-aeab-426a-9968-5383388dc9a7" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/math_functions/permutator.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/problem_24/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/problem_24/problem_24.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/problem_23/problem_23.py" afterPath="$PROJECT_DIR$/problem_23/problem_23.py" />
     </list>
@@ -60,8 +63,28 @@
       <file leaf-file-name="problem_23.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/problem_23/problem_23.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="199">
-              <caret line="26" column="24" lean-forward="false" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
+            <state relative-caret-position="51">
+              <caret line="12" column="60" lean-forward="false" selection-start-line="12" selection-start-column="60" selection-end-line="12" selection-end-column="60" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="problem_24.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/problem_24/problem_24.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="permutator.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/math_functions/permutator.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -123,6 +146,8 @@
         <option value="$PROJECT_DIR$/utility/file_reader.py" />
         <option value="$PROJECT_DIR$/problem_22/problem_22.py" />
         <option value="$PROJECT_DIR$/math_functions/divisors_func.py" />
+        <option value="$PROJECT_DIR$/problem_24/problem_24.py" />
+        <option value="$PROJECT_DIR$/math_functions/permutator.py" />
         <option value="$PROJECT_DIR$/problem_23/problem_23.py" />
       </list>
     </option>
@@ -187,7 +212,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="problem_23" />
+              <option name="myItemId" value="problem_24" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -699,12 +724,18 @@
       <option name="project" value="LOCAL" />
       <updated>1526117272312</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Neatened up a bit">
+      <created>1526117682688</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1526117682688</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2510981" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -770,7 +801,8 @@
     <MESSAGE value="Solved amicable problems" />
     <MESSAGE value="Solved problem 22 with the help of crazy list comprehension. Thank you python!" />
     <MESSAGE value="First attempt at solving problem 23. It's a bit slow so may have a look at optimising in the future" />
-    <option name="LAST_COMMIT_MESSAGE" value="First attempt at solving problem 23. It's a bit slow so may have a look at optimising in the future" />
+    <MESSAGE value="Neatened up a bit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Neatened up a bit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -786,20 +818,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/math_functions/triangle_func.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="20" lean-forward="false" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utility/number.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/problem_12/problem_12_main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1136,10 +1154,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/math_functions/permutator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/problem_24/problem_24.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/problem_23/problem_23.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="26" column="24" lean-forward="false" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
+        <state relative-caret-position="51">
+          <caret line="12" column="60" lean-forward="false" selection-start-line="12" selection-start-column="60" selection-end-line="12" selection-end-column="60" />
           <folding />
         </state>
       </provider>

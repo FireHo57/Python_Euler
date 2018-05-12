@@ -10,7 +10,7 @@ def main():
 
     print("summing")
     can_be_summed = []
-    sum_targets = [x for x in abundant_numbers if x < (28124/2)]
+    sum_targets = [x for x in abundant_numbers if x < (28124)]
 
     while len(sum_targets) != 0:
         lho = sum_targets[0]
