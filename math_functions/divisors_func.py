@@ -44,5 +44,14 @@ def proper_divisors(target):
 
     return divisors
 
+
+def all_proper_divisors_below(target):
+    divisor_list=[]
+    for x in range(1, target+1):
+        divisor_list.append(proper_divisors(x))
+
+    return divisor_list
+
+
 if __name__ == "__main__":
     print proper_divisors(500)
