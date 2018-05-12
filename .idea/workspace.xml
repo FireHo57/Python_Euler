@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="94e01f3e-aeab-426a-9968-5383388dc9a7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/math_functions/permutator.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/problem_24/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/problem_24/problem_24.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/math_functions/permutator.py" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/problem_23/problem_23.py" afterPath="$PROJECT_DIR$/problem_23/problem_23.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/problem_24/problem_24.py" afterPath="$PROJECT_DIR$/problem_24/problem_24.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -60,7 +58,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="problem_23.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="problem_23.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/problem_23/problem_23.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="51">
@@ -70,21 +68,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="problem_24.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="problem_24.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/problem_24/problem_24.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="permutator.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/math_functions/permutator.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+            <state relative-caret-position="153">
+              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -146,9 +134,9 @@
         <option value="$PROJECT_DIR$/utility/file_reader.py" />
         <option value="$PROJECT_DIR$/problem_22/problem_22.py" />
         <option value="$PROJECT_DIR$/math_functions/divisors_func.py" />
-        <option value="$PROJECT_DIR$/problem_24/problem_24.py" />
-        <option value="$PROJECT_DIR$/math_functions/permutator.py" />
         <option value="$PROJECT_DIR$/problem_23/problem_23.py" />
+        <option value="$PROJECT_DIR$/math_functions/permutator.py" />
+        <option value="$PROJECT_DIR$/problem_24/problem_24.py" />
       </list>
     </option>
   </component>
@@ -370,7 +358,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.problem_23">
+  <component name="RunManager" selected="Python.problem_24">
     <configuration default="false" name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -384,24 +372,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Python_Euler" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/problem_18/main.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/probelm_20" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Python_Euler" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/probelm_20/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -456,6 +426,24 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Python_Euler" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/problem_23/problem_23.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="problem_24" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/problem_24" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Python_Euler" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/problem_24/problem_24.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -527,18 +515,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.main" />
-      <item index="1" class="java.lang.String" itemvalue="Python.main (1)" />
-      <item index="2" class="java.lang.String" itemvalue="Python.amicable_numbers" />
-      <item index="3" class="java.lang.String" itemvalue="Python.problem_22" />
-      <item index="4" class="java.lang.String" itemvalue="Python.problem_23" />
+      <item index="1" class="java.lang.String" itemvalue="Python.amicable_numbers" />
+      <item index="2" class="java.lang.String" itemvalue="Python.problem_22" />
+      <item index="3" class="java.lang.String" itemvalue="Python.problem_23" />
+      <item index="4" class="java.lang.String" itemvalue="Python.problem_24" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.problem_23" />
-        <item index="1" class="java.lang.String" itemvalue="Python.problem_22" />
-        <item index="2" class="java.lang.String" itemvalue="Python.main" />
-        <item index="3" class="java.lang.String" itemvalue="Python.amicable_numbers" />
-        <item index="4" class="java.lang.String" itemvalue="Python.main (1)" />
+        <item index="0" class="java.lang.String" itemvalue="Python.problem_24" />
+        <item index="1" class="java.lang.String" itemvalue="Python.problem_23" />
+        <item index="2" class="java.lang.String" itemvalue="Python.problem_22" />
+        <item index="3" class="java.lang.String" itemvalue="Python.main" />
+        <item index="4" class="java.lang.String" itemvalue="Python.amicable_numbers" />
       </list>
     </recent_temporary>
   </component>
@@ -731,17 +719,25 @@
       <option name="project" value="LOCAL" />
       <updated>1526117682688</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Lifted efficiency cap on searching for problem_23. Made a start on problem_24">
+      <created>1526125514642</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1526125514642</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2510981" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37381703" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37381703" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2555205" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -802,7 +798,8 @@
     <MESSAGE value="Solved problem 22 with the help of crazy list comprehension. Thank you python!" />
     <MESSAGE value="First attempt at solving problem 23. It's a bit slow so may have a look at optimising in the future" />
     <MESSAGE value="Neatened up a bit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Neatened up a bit" />
+    <MESSAGE value="Lifted efficiency cap on searching for problem_23. Made a start on problem_24" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lifted efficiency cap on searching for problem_23. Made a start on problem_24" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1154,26 +1151,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/problem_23/problem_23.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="12" column="60" lean-forward="false" selection-start-line="12" selection-start-column="60" selection-end-line="12" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/math_functions/permutator.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <caret line="3" column="5" lean-forward="true" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/problem_24/problem_24.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/problem_23/problem_23.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="12" column="60" lean-forward="false" selection-start-line="12" selection-start-column="60" selection-end-line="12" selection-end-column="60" />
+        <state relative-caret-position="153">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding />
         </state>
       </provider>
